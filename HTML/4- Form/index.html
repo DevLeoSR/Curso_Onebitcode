@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Cadastro da liga dos astronautas</h1>
+    <form action="">
+      <p>
+        <label for="fname">Nome:</label>
+        <input type="text" id="fname" name="fname" required/>
+      </p>
+
+      <label for="fmail">Email:</label>
+      <input type="email" id="fmail" name="fmail" required/>
+
+      <label for="fsenha">Senha:</label>
+      <input type="password" id="fsenha" name="fsenha"  required/> <br />
+
+      <p>
+        <label for="fdate">Data de Nascimento:</label>
+        <input type="date" id="fdate" name="fdate" required />
+
+        <label for="ffoto">Foto:</label>
+        <input type="file" id="ffoto" name="ffoto" />
+      </p>
+
+      <label for="fpais">Nacionalidade:</label>
+      <select name="fpais" id="fpais">
+        <option value="Russia">Russia</option>
+        <option value="EUA">EUA</option>
+        <option value="Brasil">Brasil</option>
+      </select>
+
+      <label for="fgenero">Genero:</label>
+      
+        <input type="radio" id="fgenero" name="fgenero" value="M" checked />
+        <label for="fgenero">Masculino</label>
+
+        <input type="radio" id="fgenero" name="fgenero" value="F" />
+        <label for="fgenero">Feminino</label> <br>
+    
+      <p><h3>Suas principais qualidades:</h3></p>  
+         <input type="checkbox" id="fescolha1" name="fescolha">
+         <label for="fescolha1">Inteligente</label>
+         <input type="checkbox" id="fescolha2" name="fescolha">
+         <label for="fescolha2">resistente</label>
+         <input type="checkbox" id="fescolha3" name="fescolha">
+         <label for="fescolha3">resiliente</label>
+         <input type="checkbox" id="fescolha4" name="fescolha">
+         <label for="fescolha4">educado</label> <br><br>
+
+         <textarea name="fmsg" id="fmsg" cols="45" rows="10" placeholder="comentários adicionais"></textarea> <br>
+
+         <input type="submit" value="Enviar">
+    </form>
+  </body>
+</html>

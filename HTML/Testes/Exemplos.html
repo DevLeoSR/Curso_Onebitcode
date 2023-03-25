@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" />
+    <meta name="description" content="um dos meus do google achar o site - aqu ivai o tema do conteudo" />
+    <meta name="author" content="leonardo souza">
+    
+    <title>Document</title>
+  </head>
+  <body>
+    <!--adiciona comentarios-->
+    <abbr title="adiciona um comentário quando para o mouse em cima">
+      Leonardo</abbr>
+    aprendendo html
+    <br />
+
+    <address>destaca um endereço</address>
+    <br />
+
+    <!--muda a direção do texto a tag bdo com dir-->
+    <bdo dir="rtl">leonardo</bdo>
+    <br />
+
+    <!-- texto subscrito-->
+    CO<sub>2</sub>
+    <br />
+
+    <!-- texto sobrescrito-->
+    viado<sup>quadrado</sup>
+    <br />
+
+    <!--como fazer menu-->
+    <details>
+      <summary>leo</summary>
+      <p>um louko</p>
+    </details>
+    <br />
+
+    <!--tag com semantica HTML5-->
+    <strong>negrito</strong>
+    <em>italico</em>
+    <del>riscado no meio</del>
+    <ins>sublinhado</ins>
+    <br />
+
+    <!--HTML4 tags defasadas ou depreciados-->
+    <b>negrito</b>
+    <i>italico</i>
+    <s>riscado no omeio</s>
+    <u>sublinhado</u>
+    <br />
+
+<!--esquema para fotos flexivel ou  troca a foto pela resolução usando somente html/ coloque uns 50px a mais do que o tamando da foto /GIMP - programa de edição free/-->
+    <picture>
+      <source media="(max-width: 750px)" srcset="foto pequena" type="image/png">
+      <source media="(max-width: 1000px)" srcset="foto media" type="image/png">
+      <img src="foto grande" alt="imagem flexivel">
+    </picture>
+
+<!-- esquema pra carregar audio  no site// no preload dar preferencia para metadata-->
+<!--simplificado e assim <audio src=""></audio>-->
+    <audio preload="metadata" controls  loop>
+      <source src="musica.mp3" type="audio/mpeg">
+      <source src="musica.ogg" type="audio/ogg">
+      <source src="musica.wav" type="audio/wav">
+      <p>infelismente seu  navegador nao é compativel <a href="link ou pasta do arquivo"> clique aqui para baixar o arquivo</a></p>
+    </audio>
+
+    <!--Simplificado e <video src=""></video>-->
+    <video preload="metadata" poster= "foto/capa do video" controls loop width="500">
+      <source src="video.mp4 ou .m4v" type="video/mp4">
+      <source src="video.webm" type="video/webm">
+      <source src="video.ogv" type="video/ogg">
+      <p>infelismente seu  navegador nao é compativel <a href="link ou pasta do arquivo"> clique aqui para baixar o arquivo</a></p>
+    </video>
+
+    <!--inserindo videos externos// vai no youtube e compartilha e depois incorpora e copia o link-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GHuhh2pHN2U"  frameborder="0"  allowfullscreen>
+
+    </iframe>
+  </body>
+</html>
