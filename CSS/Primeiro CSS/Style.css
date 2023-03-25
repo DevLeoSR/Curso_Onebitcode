@@ -1,0 +1,8 @@
+h1{
+    /* CSS em Folha - Sem prioridade
+    Vantagem: padroniza todas as paginas
+    Desvantagens: Não estiliza excessões em destaque */
+    font-size: 100px;
+    color: rgb(7, 233, 206);
+    background-color: rgb(243, 241, 241);
+}
