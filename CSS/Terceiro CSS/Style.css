@@ -1,18 +1,22 @@
 .post-container{
    background-color: #fffafa;
-   font-family: 'Open Sans', sans-serif;
-   margin: 0 20%;
+   width: 60vw;
+   margin: 0 auto;
+   padding: 0 50px;
 }
 
 .date{
    color:  #008080;
+   font-family: 'Roboto', sans-serif;
 }
 
 h1{
    font-family: 'Montserrat', sans-serif;
 }
 
-.date{
-   font-family: 'Roboto', sans-serif;
-}
 
+.post-content{
+   width: 90%;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: normal;
+}
