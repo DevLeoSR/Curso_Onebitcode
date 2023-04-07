@@ -14,8 +14,10 @@ do {
          //baralho.push(prompt('qual carta deseja adicionar:'));  // outra forma de ser feito
          break;
       case '2':
-         alert('a carta puxada foi: ' + baralho.shift());
+         if (baralho.length > 0){
+         alert('a carta puxada foi: ' + baralho.shift() );
          //alert('a carta puxada foi: ' + baralho.pop());  // outra forma de ser feito
+         }else{alert ('não há cartas na pilha')};
          break;
       case '3':
          alert('Saindo do jogo...')  

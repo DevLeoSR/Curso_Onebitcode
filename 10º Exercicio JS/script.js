@@ -19,7 +19,9 @@ do {
          pacientes.push(prompt('qual o nome do paciente?'));
          break;   
       case '2':
-         alert('Chamando o paciente: ' + pacientes.shift());         
+         if (pacientes.length > 0) {
+            alert('Chamando o paciente: ' + pacientes.shift());   
+         } else { alert('não há pacientes na fila!')};
          break;
       case '3':
          alert('Saindo...');
