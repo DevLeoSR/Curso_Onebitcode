@@ -1,16 +1,18 @@
 const pacientes = [];
 let opcao 
-let Fila = '';
 
 do { 
+   let Fila = "";
+   for (let i = 0; i < pacientes.length; i++) {
+      Fila += (i + 1) + 'º - ' + pacientes[i] + '\n';
+   }
+   
    opcao = prompt(
    'Bem vindo ao consultório!\n\n'+
    'Fila de Espera:\n' + Fila +'\n' +
    '1 - Novo paciente\n' +
    '2 - Chamar o paciente\n' +
    '3 - Sair');
-
-   Fila = "";
 
    switch (opcao) {      
       case'1':
@@ -24,10 +26,6 @@ do {
          break;   
       default:
          alert('opção inválida');
-   }
-
-   for (let i = 0; i < pacientes.length; i++) {
-      Fila += (i + 1) + 'º - ' + pacientes[i] + '\n';
    }
 
 } while (opcao != 3);
