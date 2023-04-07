@@ -6,9 +6,7 @@ do {
    opcao = prompt('No baralho consta as cartas: \n' + Pilha + '\n' +
    '\n1 - Adicionar Carta' +
    '\n2 - Puxar uma carta' +
-   '\n3 - Sair');   // Menu do app
-
-   Pilha = ''; // reset do acumulador
+   '\n3 - Sair');   // Menu do app  
 
    switch (opcao) {
       case '1':
@@ -24,6 +22,8 @@ do {
          break;
       default: alert('Opção  inválida...')    
    }
+   // reset do acumulador
+   Pilha = ''; 
    // acumulador
    for (let index = 0; index < baralho.length; index++) {
          Pilha += '\n' + baralho[index];
