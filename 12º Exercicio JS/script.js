@@ -17,7 +17,7 @@ do {
          break;
       case '2':
          let acumulador = "";
-         for (let index = 0; index < imoveis.length; ++index) {
+         for (let index = 0; index < imoveis.length; index++) {
             acumulador += 'Proprietário: '+ imoveis[index].nome + '\n' +
                            'Quartos: '+ imoveis[index].quarto + '\n' +
                            'Banheiros: '+ imoveis[index].banheiro + '\n' +
