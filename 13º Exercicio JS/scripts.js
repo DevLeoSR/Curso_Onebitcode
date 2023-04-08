@@ -1,16 +1,19 @@
 function multi(x,y) {
-   return parsefloar(x * y)};
+   return parsefloar(x * y)
+};
 
 function soma(x,y) {
-   return parsefloar(x + y)};
+   return parsefloar(x + y)
+};
 
 function quadrado(z) {
-   return z**2     };
+   return z**2 
+};
 
 function clear() {
-   base = 0;
-   altura = 0;    };
-
+   base = 0
+   altura = 0 
+};
 
 let altura = 0;
 let base = 0;   
@@ -26,8 +29,8 @@ do {
       case '1':
          base = prompt('informe a base:');
          altura = prompt('informe a altura:');
-         clear();
          alert(multi(base, altura) /2 );
+         clear();
          break;
       case '2':
          base = prompt('informe a base:');
